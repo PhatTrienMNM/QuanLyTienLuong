@@ -1,0 +1,21 @@
+CSDL QLTL
+
+CREATE TABLE USER.taikhoan(id varchar(10) not null primary key,pass vargraphic(20) not null)
+
+CREATE TABLE USER.nhanvien(manv varchar(10) not null primary key,hoten vargraphic(50) not null,ngaysinh date,gioitinh int not null,diachi vargraphic(100) not null,sdt vargraphic(20) not null,quoctich varchar(20) not null,dantoc vargraphic(20) not null,tongiao vargraphic(30) not null,trinhdovanhoa vargraphic(30) not null,sothich vargraphic(30) null,trinhdohocvan vargraphic(30) not null,truongtotnghiep vargraphic(30) not null,chuyennghanh vargraphic(20) not null,chichu vargraphic(100) null)
+
+CREATE TABLE USER.luong(maluong varchar(10) not null primary key,manv varchar(10) not null foreign references user.nhanvien(manv),thang int not null,luongcb int not null,luongsp int not null,phucap int not null,khenthuong int not null,ungtruoc int not null,tongluong int not null)
+
+
+
+
+INSERT INTO USER.taikhoan values('admin','123456')
+
+INSERT INTO USER.nhanvien values('nv1','le thi huyen','1996-01-21','1','10 bac son','0937486148','vietnam','kinh','khong','12/12','chup anh','dai hoc','dai hoc TTLL','CNTT','hay di phuot')
+INSERT INTO USER.nhanvien values('nv3','nguyen hong quan','1996-01-04','1','10 bac son','0937486148','vietnam','kinh','co','12/12','choi game','dai hoc','dai hoc TTLL','CNTT','hay choi the thao')
+INSERT INTO USER.nhanvien values('nv4','ha trung thanh','1996-01-19','1','10 bac son','0937486148','vietnam','kinh','co','12/12','choi game','dai hoc','dai hoc TTLL','CNTT','hay choi the thao')
+INSERT INTO USER.nhanvien values('nv2','do kim huy','1996-01-19','1','10 bac son','0937486148','vietnam','kinh','co','12/12','choi game','dai hoc','dai hoc TTLL','CNTT','hay choi the thao')
+
+insert into user.luong values('l1','nv1','6','3.4','10','300','500','1000','6000')
+insert into user.luong values('l2','nv2','6','3.4','10','300','500','1000','6000')
+insert into user.luong values('l3','nv3','6','3.4','10','300','500','1000','6000')
