@@ -1,0 +1,5 @@
+CSDL QLTL
+
+create table user.taikhoan(id varchar(10) not null primary key,pass vargraphic(20) not nul
+create table user.nhanvien(manv varchar(10) not null primary key,hoten vargraphic(50) not null,ngaysinh date,gioitinh int not null,diachi vargraphic(100) not null,sdt vargraphic(20) not null,quoctich varchar(20) not null,dantoc vargraphic(20) not null,tongiao vargraphic(30) not null,trinhdovanhoa vargraphic(30) not null,sothich vargraphic(30) null,trinhdohocvan vargraphic(30) not null,truongtotnghiep vargraphic(30) not null,chuyennghanh vargraphic(20) not null,chichu vargraphic(100) null)
+create table user.luong(maluong varchar(10) not null primary key,manv varchar(10) not null foreign references nhanvien(manv),thang int not null,luongcb int not null,luongsp int not null,phucap int not null,khenthuong int not null,ungtruoc int not null,tongluong int not null)
