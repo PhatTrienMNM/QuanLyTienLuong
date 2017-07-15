@@ -1,3 +1,6 @@
+<img src="IMG/1.jpg">
+
+
 <h4 style="color:red; text-align:center;"> XÂY DỰNG PHẦN MỀM QUẢN LÝ TIỀN LƯƠNG </h4>
 <ul> <strong>Thành viên thực hiện dự án</strong></pl>
 <li> Đỗ Kim Huy ( trưởng nhóm)</li>
