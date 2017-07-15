@@ -7,7 +7,7 @@
 <li> Nguyễn Hồng Quân </li>
 <li> Hà Trung Thành</li>
 <li> Lê Thị Huyền </li></ul>
-#le (#Modau)
+<p>le </p>(#Modau)
 <h3 style="color:#1aa3ff;">Ý tưởng </h3>
 <p>Quản lý cán bộ,tiền lương là một trong những bộ phận quan trọng trong các cơ quan,đặc biệt là trong cơ quan lớn trong nước và các cơ quan nước ngoài.sự thành thạo của cơ quan phụ thuộc vào cách thức tổ chức cán bộ có tốt hay không,quản lý tiền lương có tốt hay không.các cơ  quan luôn phát triển nên hồ sơ của cán bộ vào cơ quan ngày càng nhiều.công việc lưu trữ hồ sơ thủ công sẽ rất khó khăn cho việc tìm kiểm cũng như bảo quản tốt hay bí mật.vì thế nhóm em quyết đinh <strong>" xây dựng phần mềm quản lý tiền lương"</strong>.</p>
 <hr>
